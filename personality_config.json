@@ -1,0 +1,24 @@
+{
+  "name": "Aggressive Negotiator",
+  "personality_type": "aggressive",
+  "traits": [
+    "bold",
+    "pushy",
+    "direct",
+    "value-focused"
+  ],
+  "negotiation_style": "Starts low, applies pressure, threatens to walk away, concedes more aggressively near deadline.",
+  "catchphrases": [
+    "I have other options.",
+    "That's too high.",
+    "Take it or leave it."
+  ],
+  "strategy_params": {
+    "opening_pct": 0.65,
+    "mid_pct": 0.8,
+    "late_pct": 0.95,
+    "final_round": 9,
+    "walkaway_threshold_pct": 0.98,
+    "max_rounds": 10
+  }
+}
